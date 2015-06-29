@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo -n "Restarting InCallService... "
+killall -9 InCallService 2> /dev/null
+echo "done"
+
+declare -a cydia 
+cydia=($CYDIA) 
+
+if [[ ${CYDIA+@} ]]; then 
+	eval "echo 'finish:return' >&${cydia[0]}" 
+fi 
+
+exit 0

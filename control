@@ -1,0 +1,9 @@
+Package: com.mohammadag.raisetoanswer
+Name: Raise to Answer
+Depends: mobilesubstrate, firmware (>= 8.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Raise your phone to answer phone calls
+Maintainer: Mohammad Abu-Garbeyyeh
+Author: Mohammad Abu-Garbeyyeh
+Section: Tweaks
