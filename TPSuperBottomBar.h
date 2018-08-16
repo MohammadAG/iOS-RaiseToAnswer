@@ -1,3 +1,0 @@
-@interface TPSuperBottomBar : UIView
-
-@end
